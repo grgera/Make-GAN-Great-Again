@@ -57,7 +57,7 @@ $ python3 -m /src/train.py
 Paraphrases will be generated, and the BLEU-2 and METEOR evaluation metrics will be calculated. The model path below should be the directory path of the pretrained model and end in slash. Pathbuilder tool will parse everything with this.
 
 ```bash
-$ python3 -m tools.evaluate model/<model-params>/pretrain/<pretrained-model-params>/
+$ python3 -m /tools/evaluate.py model/<model-params>/pretrain/<pretrained-model-params>/
 ```
 
 ## Sample Results
